@@ -47,7 +47,7 @@ export type ResponsavelFormData = Omit<Responsavel, 'id' | 'createdAt' | 'update
 
 export type MaquinaFormData = {
   tipo: 'S' | 'D' | 'A' | 'N';
-  mac?: string;
+  mac: string;
   observacoes?: string;
   status: 'DISPONIVEL' | 'EM_USO' | 'EM_MANUTENCAO' | 'DESCARTADO';
   setorCidadeId: number;
